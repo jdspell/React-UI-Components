@@ -1,20 +1,33 @@
 .red, .white {
     width: 25%;
     border: 1px solid gray;
-    height: 80px;
+    height: 100px;
+    font-weight: bold;
+    
 }
 
 .red {
-    background-color: red;
+    background-color: #800020;
+    opacity: .95;
+    color: white;
+    font-size: 5rem;
 }
 
 .white {
     background-color: white;
+    font-size: 5rem;
+}
+
+.action:first-of-type {
+    font-weight: lighter;
 }
 
 .action {
     width: 75%;
-    height: 80px;
+    height: 100px;
     background-color: white;
     border: 1px solid gray;
+    font-size: 5rem;
+    font-weight: bold;
 }
+
