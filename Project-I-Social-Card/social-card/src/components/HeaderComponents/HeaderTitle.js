@@ -4,7 +4,12 @@ import './Header.css';
 
 function HeaderTitle() {
     return (
-        <h1>Lambda School</h1>
+        <div className="title">
+            <h2>Lambda School</h2>
+            <h2 className="subtext">
+                @LambdaSchoolb • 26 jan
+            </h2>
+        </div>
     );
 };
 
