@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 10%;
+}
+
+footer img {
+    margin: 20px 70px 0px 0;
+    cursor: pointer;
+}
