@@ -4,6 +4,7 @@ import './App.css';
 //custom header dependencies
 import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 import ImgThumbnail from './components/HeaderComponents/ImageThumbnail';
+import Footer from './components/FooterComponents/Footer';
 
 //custom card dependencies
 import CardContainer from './components/CardComponents/CardContainer';
@@ -19,6 +20,7 @@ const App = () => {
       </div>
 
       <CardContainer/>
+      <Footer/>
     </div>
   );
 };
